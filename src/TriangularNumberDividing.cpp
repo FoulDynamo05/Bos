@@ -43,8 +43,8 @@ int main(void) {
 		index++;
 	}
 
-	//ilk deneme başarısız ve inanılmaz yavaş
-	int divCount = 0;
+	//ilk deneme baÃ¾arÃ½sÃ½z ve inanÃ½lmaz yavaÃ¾
+	/*int divCount = 0;
 	int index = 1;
 
 	while (true) {
@@ -62,6 +62,6 @@ int main(void) {
 		}
 		divCount = 0;
 		index++;
-	}
+	}*/
 
 }
