@@ -3,7 +3,7 @@ using namespace std;
 
 int conv(char a) {
 	//0'in ascii karsiligi 48 oldugu icin gelen char'dan cikarinca sayi neyse onu donduruyo
-	//ornek olarak 7 gelince ascii karsiligi 55 olduğundan 48 cikarinca geriye 7 kalıyor int tipinde dondurunce de sayi olarak gidiyor
+	//ornek olarak 7 gelince ascii karsiligi 55 oldugundan 48 cikarinca geriye 7 kaliyor int tipinde dondurunce de sayi olarak gidiyor
 	return a - '0';
 }
 
