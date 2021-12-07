@@ -17,7 +17,7 @@ int findCollatzChain(unsigned long a) {
 }
 
 int main(void) {
-	//1 milyonun altýndaki baþlangýç deðerleri arasýndan en uzun iþlem yaptýran collatz sekansýný buluyo
+	//1 milyonun altindaki baslangiÃ§ degerleri arasindan en uzun islem yaptiran collatz sekansini buluyo
 	int max = 0, chain = 0, i = 1, largest = 0;
 	while (i < 1000000) {
 		chain = findCollatzChain(i);
