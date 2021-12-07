@@ -43,7 +43,7 @@ int main(void) {
 		index++;
 	}
 
-	//ilk deneme baþarýsýz ve inanýlmaz yavaþ
+	//ilk deneme başarısız ve çok yavaş
 	/*int divCount = 0;
 	int index = 1;
 
