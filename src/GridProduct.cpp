@@ -16,8 +16,8 @@ int main(void) {
 		if (k < 400) product[2] = arr[k - 63] * arr[k - 42] * arr[k - 21] * arr[k];
 		if (l < 397) product[3] = arr[j - 57] * arr[j - 38] * arr[j - 19] * arr[j];
 
-		if (k == (79 + 20 * row)) k + 3;
-		if (l == (76 + 20 * row)) l + 3;
+		if (k == (79 + 20 * row)) k += 3;
+		if (l == (76 + 20 * row)) l += 3;
 		if (i == (19 + 20 * row)) { i += 6; row++; }
 
 		for (int x = 0; x < 4; x++) {
