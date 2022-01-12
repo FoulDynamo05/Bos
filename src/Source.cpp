@@ -8,7 +8,7 @@ void changeLeast(int arr[], int size, int key);
 
 int main(void)
 {
-	//5 Elemanlı bir kümenin permutasyonu (Elemanları birbirinden farklı)
+	//5 ElemanlÄ± bir kÃ¼menin permutasyonu (ElemanlarÄ± birbirinden farklÄ±)
 	int arr[5] = { 0,1,2,3,4 }, size = sizeof(arr) / sizeof(arr[0]);
 	permutate(arr, size);
 
