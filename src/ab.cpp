@@ -15,7 +15,7 @@ int summarize(int start, int end);
 int main(void)
 {
 	int limit = 28123;
-	int sum = summarize(1, 28124);;
+	int sum = summarize(1, limit);
 	int size = countAb(limit);
 	int* dizi = new int[size];
 
@@ -72,7 +72,7 @@ int main(void)
 int summarize(int start, int end)
 {
 	int sum = 0;
-	for (int i = start; i < end; i++)
+	for (int i = start; i <= end; i++)
 	{
 		sum += i;
 	}
