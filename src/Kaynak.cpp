@@ -2,6 +2,10 @@
 #include <time.h>
 using namespace std;
 
+//maksimum 2500 kisiye kadar ogrencilerin cevap anahtarlari otomatik olusturuluyor ve girilen cevap anahtariyla ogrencilerin cevap anahtari kiyaslaniyor ardindan puanlama yapiliyor
+//tum ad ve soyadlar ad ve soyad havuzundan alinip rastgele ve unique olacak sekilde olusturuluyor
+//ardindan kullanicinin secimine gore ogrenciler siralanarak ekrana yazdiriliyor
+
 //Dizi tanimlarinda kullanilmak uzere sabitler olusturuluyor
 const int cevapAnahtariBoyut = 10;
 const int adBoyut = 50;
