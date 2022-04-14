@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
 
+//1 den 1000 e kadar sayilari ingilizce metin seklinde yazdiran program
+
 int getAlphabetic(int digit);
 int getLen(int n);
 int vocalize(int n);
