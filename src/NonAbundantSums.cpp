@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
 
+// iki asiri sayinin toplami olarak yazilamayan tum pozitif tam sayilarin toplami
+
 int power(int a, int b);
 int pf(int num, int pow);
 int d(int num);
