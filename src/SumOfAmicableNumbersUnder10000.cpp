@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
 
+//10000 den kucuk amicable sayilarin toplami
+
 int d(int num);
 bool isA(int a);
 int power(short a, short b);
