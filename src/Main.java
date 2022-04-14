@@ -8,7 +8,7 @@ public class Main
 	
 	public static void main(String[] args) 
 	{
-		//Matrisin elemanlarını tek ve çift dizi olarak döndürme
+		//Matrisin elemanlarini tek ve cift dizi olarak dÃ¶ndÃ¼rme
 		int[][] matrice = new int[][] {
 			{56,23,678,231},
 			{234,21,78,26},
@@ -16,26 +16,26 @@ public class Main
 			{189,35,56,89}
 		};
 		
-		printMatrice(matrice, "Matrisin görüntüsü: \n");
+		printMatrice(matrice, "Matrisin gÃ¶rÃ¼ntÃ¼sÃ¼: \n");
 		System.out.println();
 		
 		int[] a = oddArr(matrice);
 		int[] b = evenArr(matrice);
 		
-		printArray(a, "Tek sayılardan oluşan dizi: ");
-		printArray(b, "Çift sayılardan oluşan dizi: ");
+		printArray(a, "Tek sayilardan olusan dizi: ");
+		printArray(b, "Ã‡ift sayilardan olusan dizi: ");
 		
-		//matrisin en büyük elemanını bulma
+		//matrisin en bÃ¼yÃ¼k elemanÃ½nÃ½ bulma
 		int c = fMax(matrice);
-		System.out.printf("\nBu matrisin en büyük elemanı: %d \n", c);
+		System.out.printf("\nBu matrisin en bÃ¼yÃ¼k elemani: %d \n", c);
 		
 		//Matriste arama
-		System.out.printf("\nAramak istediğiniz sayıyı girin: ");
+		System.out.printf("\nAramak istediginiz sayiyi girin: ");
 		int input = in.nextInt();
 		System.out.println(matriceSearch(input, matrice));
 	}
 	
-	//Tek mi çift mi döndüren fonksiyon
+	//Tek mi Ã§ift mi dÃ¶ndÃ¼ren fonksiyon
 	public static boolean isOdd(double a)
 	{
 		if(a % 2 != 0)
@@ -45,7 +45,7 @@ public class Main
 		return false;
 	}
 	
-	//oe = 1 ise gelen matrisin içerisindeki tek sayıların miktarını oe = 2 ise çift sayıların miktarını bulan fonksiyon
+	//oe = 1 ise gelen matrisin iÃ§erisindeki tek sayilarin miktarini oe = 2 ise Ã§ift sayilarin miktarini bulan fonksiyon
 	public static int countOddEven(int oe, int[][] arr)
 	{
 		int count = 0;
@@ -73,7 +73,7 @@ public class Main
 		return count;
 	}
 	
-	//Matrisin tek elemanlarından dizi oluşturmak için
+	//Matrisin tek elemanlarindan dizi olusturmak icin
 	public static int[] oddArr(int arr[][])
 	{
 		int k = 0;
@@ -93,7 +93,7 @@ public class Main
 		return oddArray;
 	}
 	
-	//Matrisin çift elemanlarından dizi oluşturmak için
+	//Matrisin Ã§ift elemanlarindan dizi olusturmak iÃ§in
 	public static int[] evenArr(int arr[][])
 	{
 		int[] evenArray = new int[countOddEven(2,arr)];
@@ -113,7 +113,7 @@ public class Main
 		return evenArray;
 	}
 	
-	//En büyüğü bulmak için
+	//En bÃ¼yÃ¼gÃ¼ bulmak iÃ§in
 	public static int fMax(int arr[][])
 	{
 		int max = arr[0][0];
@@ -131,7 +131,7 @@ public class Main
 		return max;
 	}
 	
-	//Girilen sayı matriste var mı diye bakan uygulama
+	//Girilen sayi matriste var mi diye bakan uygulama
 	public static boolean matriceSearch(int key, int arr[][])
 	{
 		for(int i = 0; i < arr.length; i++)
@@ -148,7 +148,7 @@ public class Main
 		return false;
 	}
 	
-	//Gelen tek boyutlu diziyi ekrana yazdıran fonksiyon
+	//Gelen tek boyutlu diziyi ekrana yazdiran fonksiyon
 	public static void printArray(int arr[], String text)
 	{
 		System.out.printf(text);
@@ -159,7 +159,7 @@ public class Main
 		System.out.println();
 	}
 	
-	//Gelen matrisi ekrana yazdıran fonksiyon
+	//Gelen matrisi ekrana yazdiran fonksiyon
 	public static void printMatrice(int arr[][], String text)
 	{
 		System.out.printf(text);
