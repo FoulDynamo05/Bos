@@ -1,6 +1,5 @@
 import java.util.Scanner;
 import java.util.Random;
-import java.math.BigInteger;
 
 public class Main 
 {
@@ -25,7 +24,7 @@ public class Main
 		printArray(a, "Tek sayilardan olusan dizi: ");
 		printArray(b, "Çift sayilardan olusan dizi: ");
 		
-		//matrisin en büyük elemanýný bulma
+		//matrisin en büyük elemanini bulma
 		int c = fMax(matrice);
 		System.out.printf("\nBu matrisin en büyük elemani: %d \n", c);
 		
